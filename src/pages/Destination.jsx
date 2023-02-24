@@ -1,10 +1,9 @@
+import { Outlet } from "react-router-dom";
+
 const Destination = () => {
     return (
         <div>
-            <Moon />
-            <Mars />
-            <Europa />
-            <Titan />
+            <Outlet />
         </div>
     );
 }
