@@ -1,44 +1,36 @@
+import { Button } from "@mui/material";
 import { Link } from "react-router-dom";
 const Nav = () => {
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
-            <div className="container-fluid">
-                <Link className="navbar-brand" to="#">Navbar</Link>
+        <nav className="navbar">
+            <Button variant="contained">Hello</Button>
+            <ul className="navbar-nav">
+                <li >
+                    <Link className=""
 
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
-                </button>
+                        to='/'>
+                        Home
+                    </Link>
+                </li>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link className="nav-link active"
-                                aria-current="page"
-                                to='/'>
-                                Home
-                            </Link>
-                        </li>
+                <li >
+                    <Link className="" to="/destination">
+                        Destination
+                    </Link>
+                </li>
 
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/destination">
-                                Destination
-                            </Link>
-                        </li>
+                <li >
+                    <Link className="" to="/crew">
+                        Crew
+                    </Link>
+                </li>
 
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/crew">
-                                Crew
-                            </Link>
-                        </li>
-
-                        <li className="nav-item">
-                            <Link className="nav-link" to="/technology">
-                                Technology
-                            </Link>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+                <li >
+                    <Link className="" to="/technology">
+                        Technology
+                    </Link>
+                </li>
+            </ul>
         </nav>
     );
 }

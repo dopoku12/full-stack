@@ -1,3 +1,5 @@
+import { Typography } from '@mui/material'
+
 const Crew = () => {
     return (
         <div>
@@ -5,10 +7,12 @@ const Crew = () => {
 
             Commander
             Douglas Hurley
+            <Typography>
 
-            Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
-            and former NASA astronaut. He launched into space for the third time as
-            commander of Crew Dragon Demo-2.
+                Douglas Gerald Hurley is an American engineer, former Marine Corps pilot
+                and former NASA astronaut. He launched into space for the third time as
+                commander of Crew Dragon Demo-2.
+            </Typography>
 
 
 
