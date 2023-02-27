@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className="bg-primary">
+    <div className="">
       <header>
         <Nav />
       </header>

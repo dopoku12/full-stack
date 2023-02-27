@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Nav = () => {
     return (
         <nav className="navbar">
-            <Button variant="contained">Hello</Button>
+
             <ul className="navbar-nav">
                 <li >
                     <Link className=""
