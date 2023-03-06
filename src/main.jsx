@@ -7,7 +7,11 @@ import Destination from './pages/destination';
 import { Moon, Mars, Europa, Titan } from './components/Planets'
 import Crew from './pages/Crew';
 import Technology from './pages/Technology';
-import './stylesheet/index.css';
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 
 
 const router = createBrowserRouter([

@@ -1,37 +1,37 @@
-import { Button } from "@mui/material";
+import { Button, AppBar, Grid, Typography } from "@mui/material";
 import { Link } from "react-router-dom";
 const Nav = () => {
     return (
-        <nav className="navbar">
+        <AppBar >
 
-            <ul className="navbar-nav">
-                <li >
-                    <Link className=""
+            <Grid container='row' >
+                <Typography variant='li'>
+                    <Link
 
                         to='/'>
                         Home
                     </Link>
-                </li>
+                </Typography>
 
-                <li >
-                    <Link className="" to="/destination">
+                <Typography variant='li'>
+                    <Link to="/destination">
                         Destination
                     </Link>
-                </li>
+                </Typography>
 
-                <li >
-                    <Link className="" to="/crew">
+                <Typography variant='li'>
+                    <Link to="/crew">
                         Crew
                     </Link>
-                </li>
+                </Typography>
 
-                <li >
-                    <Link className="" to="/technology">
+                <Typography variant='li'>
+                    <Link to="/technology">
                         Technology
                     </Link>
-                </li>
-            </ul>
-        </nav>
+                </Typography>
+            </Grid>
+        </AppBar>
     );
 }
 
